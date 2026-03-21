@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { FiTerminal } from 'react-icons/fi'
 import './styles/Navbar.css'
 
 const navLinks = [
@@ -35,10 +36,9 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${scrolled ? 'navbar-scrolled' : ''}`}>
-      <a href="#home" className="nav-logo hover-target">
-        <span className="logo-bracket">&lt;</span>
-        AS
-        <span className="logo-bracket">/&gt;</span>
+      <a href="#home" className="nav-logo hover-target" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <FiTerminal color="var(--accent)" size={28} />
+        <span>Akash</span>
       </a>
 
       <button
