@@ -67,7 +67,7 @@ const Avatar = () => {
       <div className="avatar-ring-wrapper">
         <div className="avatar-ring-spin" />
         <div className="avatar-img-box" ref={imageRef}>
-          <img src={`${import.meta.env.BASE_URL}images/akash.png`} alt="Akash Saraswat" className="avatar-photo" />
+          <img src="https://raw.githubusercontent.com/saraswatakash/akashportfolio/main/public/images/akash.png" alt="Akash Saraswat" className="avatar-photo" />
           <div className="avatar-overlay" ref={glowRef} />
         </div>
       </div>

@@ -77,7 +77,7 @@ const Contact = () => {
 
         <div className="contact-socials">
           <a
-            href="https://linkedin.com/in/AkashSaraswat"
+            href="https://www.linkedin.com/in/erakashsaraswat/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link hover-target"
