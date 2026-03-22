@@ -47,8 +47,8 @@ const projects = [
     title: 'Magma – Health Buzz',
     subtitle: 'Health Insurance Domain',
     description:
-      'Worked on policy insurance, endorsement and letters. This project is currently running for development as a developer.',
-    tags: ['.NET', 'SQL Server'],
+      'Worked on policy insurance, endorsement and letters.',
+   tags: ['ASP.NET', 'C#', 'SQL Server', 'REST API'],
     color: '#f472b6',
     icon: '🛡️',
   },
@@ -84,7 +84,7 @@ const Projects = () => {
       </div>
 
       <h2 className="projects-heading">
-        Featured <span className="heading-accent">Projects</span>
+        <span className="heading-accent">Projects</span>
       </h2>
 
       <div className="projects-container projects-grid">
